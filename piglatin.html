@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pig Latin Translator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="piglatin.css" />
+    <script src = "piglatin.js"></script>
+  </head>
+  <body>
+    <div class ="titlebox">
+      <h1>Pig Latin Translator</h1>
+    </div>
+    <p>
+      <div class ="directions">
+        <h3>Directions for Pig Latin Translator</h3>
+        <ul>
+          <li>Enter your sentence.</li>
+          <li>Click 'Translate'.</li>
+          <li>Watch the magic happen.</li>
+        </ul>
+      </div>
+
+      <div class="form-group">
+      <label for="comment">Enter your sentence here:</label>
+      <textarea class="form-control" rows="5" id="userword"></textarea>
+      </div>
+
+      <button onclick="translate1();" type = "button" class="btn btn-primary">Translate</button>
+
+      <div class="card">
+        <div class="card-body" id = "transout">A Basic Panel</div>
+      </div>
+
+    </p>
+  </body>
+</html>
